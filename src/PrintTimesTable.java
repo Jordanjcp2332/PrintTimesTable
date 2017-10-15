@@ -41,7 +41,7 @@ public class PrintTimesTable {
 				
 		} else {
 			
-			int con=(low-hi)+1;
+			int con=((low)-(hi))+1;
 			int vert=hi;
 			int vert2=hi;
 			int hori=hi;
@@ -52,7 +52,7 @@ public class PrintTimesTable {
 					
 				}  
 				while (con>0) {
-					 int con2=(low-hi)+1;
+					 int con2=((low)-(hi))+1;
 					 System.out.print("\n\n\t"+vert2+"\t");
 					while (con2>0) {
 						
